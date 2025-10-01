@@ -34,7 +34,7 @@ app.post('/api/contact', async (req, res) => {
   try {
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'shravyac.official@gmail.com', 
+      to: 'primevitalhealthcarelabllp@gmail.com', 
       subject: `Contact Form Submission: ${subject}`,
       html: `
         <h2>Contact Form Submission</h2>
